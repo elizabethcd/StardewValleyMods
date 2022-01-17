@@ -1,8 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\SpaceSharedPatching\SpaceSharedPatching.projitems" Label="Shared" Condition="Exists('..\SpaceSharedPatching\SpaceSharedPatching.projitems')" />
+  <Import Project="..\SpaceShared\SpaceShared.projitems" Label="Shared" Condition="Exists('..\SpaceShared\SpaceShared.projitems')" />
   <Import Project="..\common.targets" />
-  <Import Project="..\SpaceShared\SpaceShared.projitems" Label="Shared" />
-  <Import Project="..\SpaceSharedPatching\SpaceSharedPatching.projitems" Label="Shared" />
-
   <PropertyGroup>
     <Version>1.4.1</Version>
     <TargetFramework>net5.0</TargetFramework>
@@ -12,10 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.0.0" PrivateAssets="all" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SpaceCore\SpaceCore.csproj" Private="false" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,8 +19,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Pathoschild.Stardew.ModBuildConfig" />
+  </ItemGroup>
+  <ItemGroup>
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
     <None Update="Framework\Generated\CommonFields.tt" Generator="TextTemplatingFileGenerator" LastGenOutput="CommonFields.cs" />
     <Compile Update="Framework\Generated\CommonFields.cs" DesignTime="True" AutoGen="True" DependentUpon="CommonFields.tt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceCore\SpaceCore.csproj" />
   </ItemGroup>
 </Project>
