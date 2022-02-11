@@ -14,29 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{622B2762
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomizeExterior", "CustomizeExterior\CustomizeExterior.csproj", "{CB66640E-62E0-4EFE-B2F2-5C06720275F3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceCore", "SpaceCore\SpaceCore.csproj", "{BA657CB4-93ED-4C3A-A66E-86954BEB4CE6}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SpaceShared", "SpaceShared\SpaceShared.shproj", "{061610A4-7D02-4F52-A921-F59ED123C2A9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Terraforming", "Terraforming\Terraforming.csproj", "{3F979F1D-6D46-45EE-9201-8A4E9864FCBF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomBuildings", "CustomBuildings\CustomBuildings.csproj", "{5ECB259A-6E3C-46B7-980C-E71730B34C19}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaveFarm", "CaveFarm\CaveFarm.csproj", "{992BE23F-A878-4788-8009-0AA9B099A707}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaftRestoration", "RaftRestoration\RaftRestoration.csproj", "{35253CA1-E09C-4078-8ABB-C05880812F7B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArcadeRoom", "ArcadeRoom\ArcadeRoom.csproj", "{FA089604-D8E4-4C3F-8E70-B090E17B5548}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationLayerTool", "LocationLayerTool\LocationLayerTool.csproj", "{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildableLocationsFramework", "BuildableLocationsFramework\BuildableLocationsFramework.csproj", "{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BiggerJunimoChest", "BiggerJunimoChest\BiggerJunimoChest.csproj", "{5AD9A1BF-DC0C-4177-B362-DE4706C99780}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreEnchantments", "MoreEnchantments\MoreEnchantments.csproj", "{41BBD68D-B674-4DDC-B0A4-7E189F13873A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deprecated mods", "deprecated mods", "{88541912-D5C2-4322-8079-4A949DF04384}"
 EndProject
@@ -48,117 +28,137 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SpaceSharedPatching", "Spac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicGameAssets", "DynamicGameAssets\DynamicGameAssets.csproj", "{100B0E56-6FF4-48EA-97B6-6102CB68931E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JA_to_DGA", "JA_to_DGA\JA_to_DGA.csproj", "{E3CDA243-4E11-493B-96D8-35466ABC5AC4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PicturePortraits", "PicturePortraits\PicturePortraits.csproj", "{39EE1A29-BCBD-4BA5-867F-1439A9359B0E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MisappliedPhysicalities", "MisappliedPhysicalities\MisappliedPhysicalities.csproj", "{43EDE3D9-2062-4F79-B581-708FFAF9D195}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonstersTheFramework", "MonstersTheFramework\MonstersTheFramework.csproj", "{F7D17474-6ED6-42CF-A79B-2A96319E1875}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AnimalSocialMenu", "AnimalSocialMenu\AnimalSocialMenu.csproj", "{28594E53-DF65-4E0E-A72B-7A760141F12B}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AnotherHungerMod", "AnotherHungerMod\AnotherHungerMod.csproj", "{BD56607E-D057-45D9-B6B1-245B1B677DF1}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BetterMeteorites", "BetterMeteorites\BetterMeteorites.csproj", "{4EC2CDF1-98ED-4DF6-AB1F-1BC3375A0DFC}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BetterShopMenu", "BetterShopMenu\BetterShopMenu.csproj", "{4E24C6CB-5BC9-436D-95A3-CF96963156B2}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BugNet", "BugNet\BugNet.csproj", "{B63B267D-A984-4675-8B18-D528B117C3D0}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CarryChest", "CarryChest\CarryChest.csproj", "{0A8D92A7-0237-403F-B72D-1A5A261FB4BA}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CombatLevelDamageScaler", "CombatLevelDamageScaler\CombatLevelDamageScaler.csproj", "{561B9E48-A20B-41AE-81F9-FD77F956734C}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ConsoleCode", "ConsoleCode\ConsoleCode.csproj", "{02EF79D8-4BCA-4E20-AA20-F843E15CDE15}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ContentPatcherAnimations", "ContentPatcherAnimations\ContentPatcherAnimations.csproj", "{ED51BA9F-7322-4948-B6CA-D7AE9839B50A}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CookingSkill", "CookingSkill\CookingSkill.csproj", "{2ECCCA4E-2E0B-4A16-B3E6-CDE1735F18BC}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomCritters", "CustomCritters\CustomCritters.csproj", "{D0770F7F-0E9B-4DD6-8D9F-6872DD706BDC}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomNPCFixes", "CustomNPCFixes\CustomNPCFixes.csproj", "{CD988656-2CB6-4D5F-B3B8-4B2780985A4B}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ExperienceBars", "ExperienceBars\ExperienceBars.csproj", "{F799A9C6-CD96-4549-BF4A-1BA0CB8C123B}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ExtendedReach", "ExtendedReach\ExtendedReach.csproj", "{800997CF-14AA-48E4-B745-6BB38A5F019D}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "FlowerColorPicker", "FlowerColorPicker\FlowerColorPicker.csproj", "{6C2DEC47-C311-45F3-B370-490D97CBA5A8}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "GenericModConfigMenu", "GenericModConfigMenu\GenericModConfigMenu.csproj", "{330C49DB-CC4A-4F75-B5EE-C65C4FC59886}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JsonAssets", "JsonAssets\JsonAssets.csproj", "{1FDD33AE-6517-4365-86C2-B2F6D3D483EF}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JumpOver", "JumpOver\JumpOver.csproj", "{8215F780-33BE-432A-8E3B-7AF05B5F8597}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "LuckSkill", "LuckSkill\LuckSkill.csproj", "{50FD9CBE-3558-4A73-B190-95A55E502C4E}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Magic", "Magic\Magic.csproj", "{E30AB9FA-29B3-4695-B6FF-4D3EE30BAAF5}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreBuildings", "MoreBuildings\MoreBuildings.csproj", "{CEA58C15-F5E3-4B3C-89BD-2D9C577ADF33}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreGrassStarters", "MoreGrassStarters\MoreGrassStarters.csproj", "{3DDCA44D-5A37-4A02-979E-31FF92033E13}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreRings", "MoreRings\MoreRings.csproj", "{CDFC9BE1-513C-4787-850D-6414D1DA7FF1}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ObjectTimeLeft", "ObjectTimeLeft\ObjectTimeLeft.csproj", "{E4382367-2434-416A-86BD-F53C69E221BB}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ProfitCalculator", "ProfitCalculator\ProfitCalculator.csproj", "{5235584A-E35E-46C4-B582-98B3EBEBC09D}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "RushOrders", "RushOrders\RushOrders.csproj", "{B440E088-02F3-406E-B295-7FECC3BE3CB0}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SleepyEye", "SleepyEye\SleepyEye.csproj", "{F2918F32-CE62-4C7E-885F-641649E5661D}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Spenny", "Spenny\Spenny.csproj", "{6935F172-E0A9-4E51-B610-475859408A14}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "TheftOfTheWinterStar", "TheftOfTheWinterStar\TheftOfTheWinterStar.csproj", "{8C5E05CA-B50C-4C6C-94B6-CC3BF9F2BD85}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ThreeHeartDancePartner", "ThreeHeartDancePartner\ThreeHeartDancePartner.csproj", "{26ED90B0-854D-4286-8045-B9C64384E9E8}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ThrowableAxe", "ThrowableAxe\ThrowableAxe.csproj", "{17239463-80AD-4CC5-B8A5-A49E55B5206D}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreGiantCrops", "MoreGiantCrops\MoreGiantCrops.csproj", "{1494BB7A-C657-4800-91A0-642A043AE29A}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "FlowerRain", "FlowerRain\FlowerRain.csproj", "{9DA7CB5E-D13A-41D3-9FC7-A725096A416C}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ManaBar", "ManaBar\ManaBar.csproj", "{E03A1328-B017-422E-BE41-BDD173837A9D}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JunimosAcceptCash", "JunimosAcceptCash\JunimosAcceptCash.csproj", "{822DEA3C-8E3F-43EB-A5FB-F11FF54D3FA1}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HybridCropEngine", "HybridCropEngine\HybridCropEngine.csproj", "{72810960-1F80-4915-995C-8ED69E67514A}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "StatueOfGenerosity", "StatueOfGenerosity\StatueOfGenerosity.csproj", "{E7D3AD4C-6D6E-491D-A487-0ED86A0947D1}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BiggerCraftables", "BiggerCraftables\BiggerCraftables.csproj", "{D4CD1094-5B5D-423D-AE99-1DD33BBAF0B3}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SurfingFestival", "SurfingFestival\SurfingFestival.csproj", "{E74F49DE-F654-4790-9A34-413ECF943A05}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "PyromancersJourney", "PyromancersJourney\PyromancersJourney.csproj", "{D7BCABC3-EDF1-4D53-AC4A-AF7F52CD2291}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MultiFertilizer", "MultiFertilizer\MultiFertilizer.csproj", "{FF616F1F-036B-48FF-8690-EEC24E8F2C30}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Displays", "Displays\Displays.csproj", "{7DC0FCC5-E1DF-406B-9D58-BB3F5766CB2C}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CapstoneProfessions", "CapstoneProfessions\CapstoneProfessions.csproj", "{3CDCCCDC-C05D-4790-A22C-0E61D509528C}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "PreexistingRelationship", "PreexistingRelationship\PreexistingRelationship.csproj", "{C2A06849-452C-47E9-A074-8D9BE2CD2136}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "RealtimeMinimap", "RealtimeMinimap\RealtimeMinimap.csproj", "{83734912-BA8D-420F-8F87-0E36DD79188F}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SuperHopper", "SuperHopper\SuperHopper.csproj", "{F3F2A625-76CC-4F9F-9530-D9B833B84314}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "DGAAutomate", "DGAAutomate\DGAAutomate.csproj", "{E1301815-0253-47D1-8F30-6FA2CD54CB45}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoonMisadventures", "MoonMisadventures\MoonMisadventures.csproj", "{7DCDC568-15C6-46BF-9241-4AC43582750E}"
-EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ContentCode", "ContentCode\ContentCode.csproj", "{33661E20-D4BD-48AF-BA0F-08FB45CA2DDE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentPatcherEditor", "ContentPatcherEditor\ContentPatcherEditor.csproj", "{34AB99B0-096E-4919-933C-A7A04D1E9F91}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom_Crops", "Custom_Crops\Custom_Crops.csproj", "{695CDA6A-9398-4D71-9432-9763CC510020}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewGamePlus", "NewGamePlus\NewGamePlus.csproj", "{3DA3FB18-AC0C-40F4-B45B-5D13916D032A}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomizeExterior", "CustomizeExterior\CustomizeExterior.csproj", "{185597A0-745D-4DA4-A9B5-0EF67BD3F42F}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Terraforming", "Terraforming\Terraforming.csproj", "{7A27267F-7F30-452B-A51C-4E8994F51345}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomBuildings", "CustomBuildings\CustomBuildings.csproj", "{DDF4432C-1EA8-4B41-A004-995E446CBE87}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CaveFarm", "CaveFarm\CaveFarm.csproj", "{0E35D2E7-F8AD-4B49-BD5D-01F95B387446}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "RaftRestoration", "RaftRestoration\RaftRestoration.csproj", "{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ArcadeRoom", "ArcadeRoom\ArcadeRoom.csproj", "{C51D771B-0643-4AB3-BC29-3DA9CE1453DB}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "LocationLayerTool", "LocationLayerTool\LocationLayerTool.csproj", "{E5502E2E-182B-4C95-A426-418AC5440052}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BuildableLocationsFramework", "BuildableLocationsFramework\BuildableLocationsFramework.csproj", "{A171DE24-73F4-4BA0-9E3D-64326498D202}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BiggerJunimoChest", "BiggerJunimoChest\BiggerJunimoChest.csproj", "{08544E3A-D03B-4C1E-A0FC-4653054A1943}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreEnchantments", "MoreEnchantments\MoreEnchantments.csproj", "{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JA_to_DGA", "JA_to_DGA\JA_to_DGA.csproj", "{8BBE5922-AA02-448F-A412-3FF5F0990514}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "PicturePortraits", "PicturePortraits\PicturePortraits.csproj", "{5003390C-6E20-4422-B42F-7CD604FC2F2B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MisappliedPhysicalities", "MisappliedPhysicalities\MisappliedPhysicalities.csproj", "{1B6E793E-6725-4B70-9E92-C63B0E04A511}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MonstersTheFramework", "MonstersTheFramework\MonstersTheFramework.csproj", "{6BD9D10A-A910-4312-B1D4-FB3EC946DD37}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AnimalSocialMenu", "AnimalSocialMenu\AnimalSocialMenu.csproj", "{40901734-7346-45DF-BCF9-8A336A4E850B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "AnotherHungerMod", "AnotherHungerMod\AnotherHungerMod.csproj", "{A3E2D87F-BAA8-481F-9BC9-78EDFA218A0B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BetterMeteorites", "BetterMeteorites\BetterMeteorites.csproj", "{D1E29C30-4EBF-4F0F-89B4-480184B0A28F}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BetterShopMenu", "BetterShopMenu\BetterShopMenu.csproj", "{53150D34-E50C-425A-ABC2-1284F82A2D40}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BugNet", "BugNet\BugNet.csproj", "{53CFF14D-12E4-490A-8F7B-E9BA92DC2464}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CarryChest", "CarryChest\CarryChest.csproj", "{B2AA7939-913B-4F70-8A5C-C06582DC0429}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CombatLevelDamageScaler", "CombatLevelDamageScaler\CombatLevelDamageScaler.csproj", "{D3ECAEA8-4B0D-4706-B5F5-E841E565679E}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ConsoleCode", "ConsoleCode\ConsoleCode.csproj", "{DAA8FDE4-8B9E-4EF0-BBBB-F32B37BB8520}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ContentPatcherAnimations", "ContentPatcherAnimations\ContentPatcherAnimations.csproj", "{E5DF8B98-84F2-4469-8275-AE72858F6A8C}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CookingSkill", "CookingSkill\CookingSkill.csproj", "{62B22A37-2EBD-4554-9D31-DEF564984381}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomCritters", "CustomCritters\CustomCritters.csproj", "{A21E2508-A52E-4D60-9481-EC50D3EAAB21}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CustomNPCFixes", "CustomNPCFixes\CustomNPCFixes.csproj", "{6BFEC55B-7981-4D57-B680-AE70C55CBD17}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ExperienceBars", "ExperienceBars\ExperienceBars.csproj", "{E822EF2A-08B0-4C83-AA4F-7B58AAB46948}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ExtendedReach", "ExtendedReach\ExtendedReach.csproj", "{87C8F99D-01DC-4EB4-A863-F191776C6508}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "FlowerColorPicker", "FlowerColorPicker\FlowerColorPicker.csproj", "{E4CDDC53-A475-4B84-8A17-267A46D533A1}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "GenericModConfigMenu", "GenericModConfigMenu\GenericModConfigMenu.csproj", "{78EB91B4-456F-4DA1-87FB-098BFC184B80}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JsonAssets", "JsonAssets\JsonAssets.csproj", "{10554577-7F17-42FC-9449-8F1D2B14B0BF}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JumpOver", "JumpOver\JumpOver.csproj", "{998EA5D2-3667-4E9B-B241-81DC00034939}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "LuckSkill", "LuckSkill\LuckSkill.csproj", "{79935039-5811-43F8-B534-26AA95CF2691}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Magic", "Magic\Magic.csproj", "{02B39690-6068-496C-8EDF-C36EB8D436E2}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreBuildings", "MoreBuildings\MoreBuildings.csproj", "{AF1DCFDF-98FB-4D25-AD89-C9BFA9C55EE2}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreGrassStarters", "MoreGrassStarters\MoreGrassStarters.csproj", "{1CCF65D4-570B-4A1D-8053-CACE12EABB4D}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreRings", "MoreRings\MoreRings.csproj", "{1E22261F-23DE-4F73-8153-52D02886C52A}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ObjectTimeLeft", "ObjectTimeLeft\ObjectTimeLeft.csproj", "{6FFF2B7B-0B8A-46AE-85DF-4DE5A0FB156E}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ProfitCalculator", "ProfitCalculator\ProfitCalculator.csproj", "{65140546-A04C-40E2-80E5-5A3CDE15C109}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "RushOrders", "RushOrders\RushOrders.csproj", "{8D8F69B6-D42B-4777-9460-A8D715E69BB3}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SleepyEye", "SleepyEye\SleepyEye.csproj", "{5D02972C-59D6-400E-A6E5-90D57239D082}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Spenny", "Spenny\Spenny.csproj", "{714A6B34-7262-4E7A-BA7B-11C540C4477E}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "TheftOfTheWinterStar", "TheftOfTheWinterStar\TheftOfTheWinterStar.csproj", "{F88691B8-6ECD-49FA-BE9F-9A8E6CCEAEE6}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ThreeHeartDancePartner", "ThreeHeartDancePartner\ThreeHeartDancePartner.csproj", "{26D2A34D-2DCB-40E3-A9B6-A7992165B5D1}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ThrowableAxe", "ThrowableAxe\ThrowableAxe.csproj", "{4517537A-78C6-45ED-AB8D-C0017C96DC64}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoreGiantCrops", "MoreGiantCrops\MoreGiantCrops.csproj", "{6A84F542-C126-42C0-B181-4A678A630EF7}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "FlowerRain", "FlowerRain\FlowerRain.csproj", "{6D1D06D5-F0CF-4327-8D88-3C932613E74B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ManaBar", "ManaBar\ManaBar.csproj", "{37B877FE-0E52-41DA-A90B-5F1103BD757C}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "JunimosAcceptCash", "JunimosAcceptCash\JunimosAcceptCash.csproj", "{3D72215D-DEF6-465E-99A9-3D4F11F1E6C8}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HybridCropEngine", "HybridCropEngine\HybridCropEngine.csproj", "{628FD24D-D977-4554-BD57-EC5E95998D15}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "StatueOfGenerosity", "StatueOfGenerosity\StatueOfGenerosity.csproj", "{F0089DF1-E613-4F20-98CC-3D6F2D552FA0}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "BiggerCraftables", "BiggerCraftables\BiggerCraftables.csproj", "{018716B1-7D15-47EF-8850-531FA136987C}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SurfingFestival", "SurfingFestival\SurfingFestival.csproj", "{FDED50C7-06FC-436F-BCAF-01C37D2F04D9}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "PyromancersJourney", "PyromancersJourney\PyromancersJourney.csproj", "{88042341-5C4A-42F8-A264-597EB0DB69D2}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MultiFertilizer", "MultiFertilizer\MultiFertilizer.csproj", "{CAD58AFF-C1D8-4F95-8CEA-50C952D36320}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Displays", "Displays\Displays.csproj", "{32E95A96-00CD-414F-9F08-94151C330D5D}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "CapstoneProfessions", "CapstoneProfessions\CapstoneProfessions.csproj", "{78EC850F-6C56-49C6-ADFA-A8C067321E91}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "PreexistingRelationship", "PreexistingRelationship\PreexistingRelationship.csproj", "{77647483-1535-444A-9A1C-823B558D773D}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "RealtimeMinimap", "RealtimeMinimap\RealtimeMinimap.csproj", "{D85CEC4D-D866-44A8-8140-D303692647A6}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "SuperHopper", "SuperHopper\SuperHopper.csproj", "{D44E66B0-EDDE-4D52-952E-73BC4FB89391}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "DGAAutomate", "DGAAutomate\DGAAutomate.csproj", "{D43332A3-7EEC-4988-AC8A-1F47024A7B6B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "MoonMisadventures", "MoonMisadventures\MoonMisadventures.csproj", "{D7ECED71-E124-4E3F-BFD3-B6312C695B90}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "ContentCode", "ContentCode\ContentCode.csproj", "{40219B9C-B717-4D2C-9DA7-41D788D53838}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -267,70 +267,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CB66640E-62E0-4EFE-B2F2-5C06720275F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB66640E-62E0-4EFE-B2F2-5C06720275F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB66640E-62E0-4EFE-B2F2-5C06720275F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB66640E-62E0-4EFE-B2F2-5C06720275F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA657CB4-93ED-4C3A-A66E-86954BEB4CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA657CB4-93ED-4C3A-A66E-86954BEB4CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA657CB4-93ED-4C3A-A66E-86954BEB4CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA657CB4-93ED-4C3A-A66E-86954BEB4CE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F979F1D-6D46-45EE-9201-8A4E9864FCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F979F1D-6D46-45EE-9201-8A4E9864FCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F979F1D-6D46-45EE-9201-8A4E9864FCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F979F1D-6D46-45EE-9201-8A4E9864FCBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5ECB259A-6E3C-46B7-980C-E71730B34C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ECB259A-6E3C-46B7-980C-E71730B34C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ECB259A-6E3C-46B7-980C-E71730B34C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ECB259A-6E3C-46B7-980C-E71730B34C19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{992BE23F-A878-4788-8009-0AA9B099A707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{992BE23F-A878-4788-8009-0AA9B099A707}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{992BE23F-A878-4788-8009-0AA9B099A707}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{992BE23F-A878-4788-8009-0AA9B099A707}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35253CA1-E09C-4078-8ABB-C05880812F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35253CA1-E09C-4078-8ABB-C05880812F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35253CA1-E09C-4078-8ABB-C05880812F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35253CA1-E09C-4078-8ABB-C05880812F7B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA089604-D8E4-4C3F-8E70-B090E17B5548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA089604-D8E4-4C3F-8E70-B090E17B5548}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA089604-D8E4-4C3F-8E70-B090E17B5548}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA089604-D8E4-4C3F-8E70-B090E17B5548}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5AD9A1BF-DC0C-4177-B362-DE4706C99780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AD9A1BF-DC0C-4177-B362-DE4706C99780}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AD9A1BF-DC0C-4177-B362-DE4706C99780}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AD9A1BF-DC0C-4177-B362-DE4706C99780}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41BBD68D-B674-4DDC-B0A4-7E189F13873A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41BBD68D-B674-4DDC-B0A4-7E189F13873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41BBD68D-B674-4DDC-B0A4-7E189F13873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41BBD68D-B674-4DDC-B0A4-7E189F13873A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{100B0E56-6FF4-48EA-97B6-6102CB68931E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{100B0E56-6FF4-48EA-97B6-6102CB68931E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100B0E56-6FF4-48EA-97B6-6102CB68931E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100B0E56-6FF4-48EA-97B6-6102CB68931E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3CDA243-4E11-493B-96D8-35466ABC5AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3CDA243-4E11-493B-96D8-35466ABC5AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3CDA243-4E11-493B-96D8-35466ABC5AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3CDA243-4E11-493B-96D8-35466ABC5AC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39EE1A29-BCBD-4BA5-867F-1439A9359B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39EE1A29-BCBD-4BA5-867F-1439A9359B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39EE1A29-BCBD-4BA5-867F-1439A9359B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39EE1A29-BCBD-4BA5-867F-1439A9359B0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43EDE3D9-2062-4F79-B581-708FFAF9D195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43EDE3D9-2062-4F79-B581-708FFAF9D195}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43EDE3D9-2062-4F79-B581-708FFAF9D195}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43EDE3D9-2062-4F79-B581-708FFAF9D195}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7D17474-6ED6-42CF-A79B-2A96319E1875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7D17474-6ED6-42CF-A79B-2A96319E1875}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7D17474-6ED6-42CF-A79B-2A96319E1875}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7D17474-6ED6-42CF-A79B-2A96319E1875}.Release|Any CPU.Build.0 = Release|Any CPU
 		{34AB99B0-096E-4919-933C-A7A04D1E9F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{34AB99B0-096E-4919-933C-A7A04D1E9F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AB99B0-096E-4919-933C-A7A04D1E9F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -343,28 +287,84 @@ Global
 		{3DA3FB18-AC0C-40F4-B45B-5D13916D032A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA3FB18-AC0C-40F4-B45B-5D13916D032A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA3FB18-AC0C-40F4-B45B-5D13916D032A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185597A0-745D-4DA4-A9B5-0EF67BD3F42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185597A0-745D-4DA4-A9B5-0EF67BD3F42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185597A0-745D-4DA4-A9B5-0EF67BD3F42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185597A0-745D-4DA4-A9B5-0EF67BD3F42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A27267F-7F30-452B-A51C-4E8994F51345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A27267F-7F30-452B-A51C-4E8994F51345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A27267F-7F30-452B-A51C-4E8994F51345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A27267F-7F30-452B-A51C-4E8994F51345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF4432C-1EA8-4B41-A004-995E446CBE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF4432C-1EA8-4B41-A004-995E446CBE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF4432C-1EA8-4B41-A004-995E446CBE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF4432C-1EA8-4B41-A004-995E446CBE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E35D2E7-F8AD-4B49-BD5D-01F95B387446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E35D2E7-F8AD-4B49-BD5D-01F95B387446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E35D2E7-F8AD-4B49-BD5D-01F95B387446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E35D2E7-F8AD-4B49-BD5D-01F95B387446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51D771B-0643-4AB3-BC29-3DA9CE1453DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51D771B-0643-4AB3-BC29-3DA9CE1453DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51D771B-0643-4AB3-BC29-3DA9CE1453DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51D771B-0643-4AB3-BC29-3DA9CE1453DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5502E2E-182B-4C95-A426-418AC5440052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5502E2E-182B-4C95-A426-418AC5440052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5502E2E-182B-4C95-A426-418AC5440052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5502E2E-182B-4C95-A426-418AC5440052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171DE24-73F4-4BA0-9E3D-64326498D202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171DE24-73F4-4BA0-9E3D-64326498D202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171DE24-73F4-4BA0-9E3D-64326498D202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171DE24-73F4-4BA0-9E3D-64326498D202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08544E3A-D03B-4C1E-A0FC-4653054A1943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08544E3A-D03B-4C1E-A0FC-4653054A1943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08544E3A-D03B-4C1E-A0FC-4653054A1943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08544E3A-D03B-4C1E-A0FC-4653054A1943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBE5922-AA02-448F-A412-3FF5F0990514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBE5922-AA02-448F-A412-3FF5F0990514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBE5922-AA02-448F-A412-3FF5F0990514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBE5922-AA02-448F-A412-3FF5F0990514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5003390C-6E20-4422-B42F-7CD604FC2F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5003390C-6E20-4422-B42F-7CD604FC2F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5003390C-6E20-4422-B42F-7CD604FC2F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5003390C-6E20-4422-B42F-7CD604FC2F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6E793E-6725-4B70-9E92-C63B0E04A511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6E793E-6725-4B70-9E92-C63B0E04A511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6E793E-6725-4B70-9E92-C63B0E04A511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6E793E-6725-4B70-9E92-C63B0E04A511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD9D10A-A910-4312-B1D4-FB3EC946DD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD9D10A-A910-4312-B1D4-FB3EC946DD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD9D10A-A910-4312-B1D4-FB3EC946DD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD9D10A-A910-4312-B1D4-FB3EC946DD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CB66640E-62E0-4EFE-B2F2-5C06720275F3} = {88541912-D5C2-4322-8079-4A949DF04384}
 		{061610A4-7D02-4F52-A921-F59ED123C2A9} = {DED81BB3-A571-46E2-91C2-6A8B7890C7EA}
-		{3F979F1D-6D46-45EE-9201-8A4E9864FCBF} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{5ECB259A-6E3C-46B7-980C-E71730B34C19} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{992BE23F-A878-4788-8009-0AA9B099A707} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{35253CA1-E09C-4078-8ABB-C05880812F7B} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{FA089604-D8E4-4C3F-8E70-B090E17B5548} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{A20DE2A2-91A8-41FD-8CB5-75D0B7FF20F9} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{C5DF0500-3462-4095-AEF7-3ABC5EBFA5EA} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{5AD9A1BF-DC0C-4177-B362-DE4706C99780} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{41BBD68D-B674-4DDC-B0A4-7E189F13873A} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
 		{A87F5D49-6246-4B14-8363-114DC9335C2C} = {DED81BB3-A571-46E2-91C2-6A8B7890C7EA}
-		{E3CDA243-4E11-493B-96D8-35466ABC5AC4} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{39EE1A29-BCBD-4BA5-867F-1439A9359B0E} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
-		{43EDE3D9-2062-4F79-B581-708FFAF9D195} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
 		{34AB99B0-096E-4919-933C-A7A04D1E9F91} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
 		{695CDA6A-9398-4D71-9432-9763CC510020} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{185597A0-745D-4DA4-A9B5-0EF67BD3F42F} = {88541912-D5C2-4322-8079-4A949DF04384}
+		{7A27267F-7F30-452B-A51C-4E8994F51345} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{DDF4432C-1EA8-4B41-A004-995E446CBE87} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{0E35D2E7-F8AD-4B49-BD5D-01F95B387446} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{B0DE674A-8A8F-4542-B695-EFDFA3B44E5A} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{C51D771B-0643-4AB3-BC29-3DA9CE1453DB} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{E5502E2E-182B-4C95-A426-418AC5440052} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{A171DE24-73F4-4BA0-9E3D-64326498D202} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{08544E3A-D03B-4C1E-A0FC-4653054A1943} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{341CDBE2-C920-4E58-AA16-0E0A7D1DFD20} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{8BBE5922-AA02-448F-A412-3FF5F0990514} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{5003390C-6E20-4422-B42F-7CD604FC2F2B} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
+		{1B6E793E-6725-4B70-9E92-C63B0E04A511} = {8FEFBE16-BBBC-4EA0-829E-E5DCF15F0DFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38EB01DD-BAE8-4977-9815-463F5F434FBF}
