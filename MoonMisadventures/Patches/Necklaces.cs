@@ -24,7 +24,7 @@ namespace MoonMisadventures.Patches
         {
             __instance.equipmentIcons.Add(
                 new ClickableComponent(
-                    new Rectangle( __instance.xPositionOnScreen + 48 + 208 - 80 - 208,
+                    new Rectangle( __instance.xPositionOnScreen + 48 + 208 - 80 - ( Mod.instance.Helper.ModRegistry.IsLoaded("bcmpinc.WearMoreRings") ? 208 : -144 ),
                         __instance.yPositionOnScreen + IClickableMenu.borderWidth + IClickableMenu.spaceToClearTopBorder + 4 + 256 - 12,
                         64, 64 ),
                     "Necklace" )
@@ -89,8 +89,11 @@ namespace MoonMisadventures.Patches
     [HarmonyPatch( typeof( InventoryPage ), nameof( InventoryPage.draw ) )]
     public static class InventoryPageNecklaceDrawPatch
     {
-        public static void Postfix( InventoryPage __instance, SpriteBatch b )
+        public static void Postfix( InventoryPage __instance, SpriteBatch b, Item ___hoveredItem)
         {
+            if (___hoveredItem != null && ___hoveredItem != Game1.player.get_necklaceItem().Value)
+                return;
+
             var necklaceSlot = __instance.equipmentIcons.First( cc => cc.myID == 123450101 );
             if ( Game1.player.get_necklaceItem().Value != null )
             {
